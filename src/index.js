@@ -1,13 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+// import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import Navbar from "./components/Navbar/Navbar";
+import Breadcrumb from "./components/BreadCrumb/BreadCrumb";
+import BreadCrumbMui from "./components/BreadCrumbMui/BreadCrumbMui";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Navbar />
+    <Breadcrumb />
+    <BreadCrumbMui />
   </React.StrictMode>
 );
 
