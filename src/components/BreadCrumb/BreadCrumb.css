@@ -1,0 +1,23 @@
+.is-overflow>span.text {
+    display: none;
+}
+
+.item>span.ellipse {
+    display: none;
+}
+
+.item.is-overflow>span.ellipse {
+    display: block;
+}
+
+.item:hover>span.ellipse {
+    display: none;
+}
+
+.item:hover>span.text {
+    display: block;
+}
+
+.text-ellipse {
+    text-overflow: ellipsis;
+}

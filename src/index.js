@@ -2,10 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 // import App from "./App";
-import reportWebVitals from "./reportWebVitals";
-import Navbar from "./components/Navbar/Navbar";
-import Breadcrumb from "./components/BreadCrumb/BreadCrumb";
-import BreadCrumbMui from "./components/BreadCrumbMui/BreadCrumbMui";
+import reportWebVitals from "./reportWebVitals.js";
+import Navbar from "./components/Navbar/Navbar.jsx";
+import Breadcrumb from "./components/BreadCrumb/BreadCrumb.jsx";
+// import BreadcrumbAtlkit from "./components/BreadcrumbAtlkit/BreadcrumbAtlkit.jsx";
+// import BreadCrumbMui from "./components/BreadCrumbMui/BreadCrumbMui";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -13,7 +14,8 @@ root.render(
     {/* <App /> */}
     <Navbar />
     <Breadcrumb />
-    <BreadCrumbMui />
+    {/* <BreadCrumbMui /> */}
+    {/* <BreadcrumbAtlkit /> */}
   </React.StrictMode>
 );
 
