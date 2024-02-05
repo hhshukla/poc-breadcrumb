@@ -5,8 +5,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals.js";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Breadcrumb from "./components/BreadCrumb/BreadCrumb.jsx";
-// import BreadcrumbAtlkit from "./components/BreadcrumbAtlkit/BreadcrumbAtlkit.jsx";
-// import BreadCrumbMui from "./components/BreadCrumbMui/BreadCrumbMui";
+import MyComponent from "./components/MyComponent/MyComponent.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,8 +13,7 @@ root.render(
     {/* <App /> */}
     <Navbar />
     <Breadcrumb />
-    {/* <BreadCrumbMui /> */}
-    {/* <BreadcrumbAtlkit /> */}
+    <MyComponent />
   </React.StrictMode>
 );
 

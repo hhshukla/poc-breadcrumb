@@ -16,8 +16,41 @@
 
 .item:hover>span.text {
     display: block;
+    transition: all 0.8s ease-in-out;
+    border: 1px solid;
+    color: aqua;
+    animation: 0.5s anim-lineUp ease-out;
+    background-color: gray;
+    border-radius: 100px;
+    padding: 5px;
+
+
 }
 
 .text-ellipse {
     text-overflow: ellipsis;
+}
+
+
+
+
+@keyframes anim-lineUp {
+    0% {
+        opacity: 0;
+        transform: translateY(80%);
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
 }
